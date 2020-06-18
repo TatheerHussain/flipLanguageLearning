@@ -1,0 +1,171 @@
+body, html {
+  text-align: center;
+  height: 100%;
+  
+  background: linear-gradient(#D38312, #A83279);
+}
+
+h1 {
+  margin-top: -5px;
+  margin-bottom: 15px;
+  color: purple;
+  font-family: 'Times New', cursive;
+  font-size: 40px;
+}
+
+.container {
+  width: 700px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  overflow:auto;
+}
+
+.square {
+  display: inline-block;
+  transition: 0.2s;
+  opacity: 0.8;
+  margin: 4px;
+  height: 100px;
+  width: 100px;
+  border: thin solid #7FC7A8;
+  text-align: center;
+  background: #e7edd3; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #e7edd3 0%, #abbd73 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #e7edd3 0%,#abbd73 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #e7edd3 0%,#abbd73 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7edd3', endColorstr='#abbd73',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.square p {
+  visibility: hidden;
+  pointer-events: none;
+  color: rgb(149, 67, 170);
+  font-family: 'Times New', cursive;
+  font-size: 30px;
+}
+
+.square:hover {
+  opacity: 1 !important;
+  border: thin solid #42705c !important;
+}
+
+.row {
+  width: 500px;
+}
+
+.sign-container {
+  width: 100%;
+  z-index: 1;
+}
+
+.sign {
+  visibility: hidden;
+  font-size: 40px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top:20px;
+  bottom:0;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 170px;
+  width: 570px;
+  border-radius: 5px;
+  background: white;
+  border: thin solid #1888ab;
+  z-index: 1;
+  color: #1f346f;
+  font-family: 'Indie Flower', cursive;
+}
+
+/*chunky*/
+.chunky {
+    position: relative;
+    width: 300px;
+    height: 298px;
+    
+    margin: 0 auto;
+    
+    }
+
+/* ===[ Begin Chunky Button ]=== */
+
+.chunky a {
+    /* Normal State */
+    padding: 4px 15px 7px 15px;
+    width: auto;
+    height: auto;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.50);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.50);
+    border-top: 1px solid rgba(0,0,0,0.001);
+    box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.10);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.10);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.10);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.10);
+    -ms-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.10);
+    cursor: pointer;
+}
+
+.chunky a:hover {
+    /* Hover State */
+    box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
+    -ms-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
+    -webkit-animation: glow 1s infinite ease-in-out;
+    cursor: pointer;
+}
+
+.chunky a:active {
+    /* Active State (clicked on) */
+    padding: 6px 15px 5px 15px;
+    border-top: 1px solid rgba(0,0,0,0.55);
+    box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50), inset 0px 1px 4px rgba(0,0,0,0.35), inset 0px -14px 14px rgba(255,255,255,0.10);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50), inset 0px 1px 4px rgba(0,0,0,0.35), inset 0px -14px 14px rgba(255,255,255,0.10);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50), inset 0px 1px 4px rgba(0,0,0,0.35), inset 0px -14px 14px rgba(255,255,255,0.10);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50), inset 0px 1px 4px rgba(0,0,0,0.35), inset 0px -14px 14px rgba(255,255,255,0.10);
+    -ms-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50), inset 0px 1px 4px rgba(0,0,0,0.35), inset 0px -14px 14px rgba(255,255,255,0.10);
+    -webkit-animation: none;
+    cursor: pointer !important;
+}
+
+/* ===[ End Chunky Button ]=== */
+
+/* ===[ Start Chunky Button Background Color ]=== */
+
+
+
+
+.chunky18 a { background: #663399 }
+
+.chunky19 a { background: #993399 }
+
+.chunky20 a { background: #EA4C89 }
+
+
+.chunky24 a { background: #cc6633 }
+
+.chunky25 a { background: #FF6600 }
+
+.chunky26 a { background: #FF9900 }
+
+
