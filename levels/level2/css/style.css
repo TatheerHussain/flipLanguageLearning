@@ -1,0 +1,81 @@
+body, html {
+  text-align: center;
+  height: 100%;
+  
+  background: linear-gradient(#D38312, #A83279);
+}
+
+h1 {
+  margin-top: -5px;
+  margin-bottom: 15px;
+  color: purple;
+  font-family: 'Times New', cursive;
+  font-size: 40px;
+}
+
+.container {
+  width: 500px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  overflow:auto;
+}
+
+.square {
+  display: inline-block;
+  transition: 0.2s;
+  opacity: 0.8;
+  margin: 4px;
+  height: 100px;
+  width: 100px;
+  border: thin solid #7FC7A8;
+  text-align: center;
+  background: #e7edd3; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #e7edd3 0%, #abbd73 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #e7edd3 0%,#abbd73 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #e7edd3 0%,#abbd73 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7edd3', endColorstr='#abbd73',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.square p {
+  visibility: hidden;
+  pointer-events: none;
+  color: rgb(149, 67, 170);
+  font-family: 'Times New', cursive;
+  font-size: 30px;
+}
+
+.square:hover {
+  opacity: 1 !important;
+  border: thin solid #42705c !important;
+}
+
+.row {
+  width: 500px;
+}
+
+.sign-container {
+  width: 100%;
+  z-index: 1;
+}
+
+.sign {
+  visibility: hidden;
+  font-size: 40px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top:60px;
+  bottom:0;
+  
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 370px;
+  border-radius: 10px;
+  background: white;
+  border: thin solid #1888ab;
+  z-index: 1;
+  color: #1f346f;
+  font-family: 'Indie Flower', cursive;
+}
